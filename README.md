@@ -1,4 +1,4 @@
- [简体中文](./README.zh-CN.md) 
+ [English](./README.md) | [简体中文](./README.zh-CN.md) 
 
 <h1 align="center">试验台</h1>
 
