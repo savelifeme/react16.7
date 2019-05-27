@@ -210,7 +210,7 @@ class AdvancedProfile extends Component {
   };
 
   @Bind()
-  @Debounce(200)
+  @Debounce(200)  // 这个方法是防抖动的，应用就是一个input 输入框里面的每次输入都会触发一个值，这样会浪费性能，这个时候用防抖动 就解决了
   setStepDirection() {
     const { stepDirection } = this.state;
     const w = getWindowWidth();
